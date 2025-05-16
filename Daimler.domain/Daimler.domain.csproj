@@ -10,4 +10,10 @@
     <ProjectReference Include="..\Daimler.data\Daimler.data.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.6.3" />
+  </ItemGroup>
+
 </Project>

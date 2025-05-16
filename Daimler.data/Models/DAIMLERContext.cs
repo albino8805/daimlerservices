@@ -30,5 +30,7 @@ namespace Daimler.data.Models
         public virtual DbSet<State> States { get; set; }
 
         public virtual DbSet<Town> Towns { get; set; }
+
+        public virtual DbSet<Folder> Folders { get; set; }
     }
 }
