@@ -1,0 +1,6 @@
+@Daimler.api_HostAddress = http://localhost:5142
+
+GET {{Daimler.api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
